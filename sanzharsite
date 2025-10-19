@@ -1,0 +1,80 @@
+!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менің алғашқы сайтым</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f5f5f5; 
+            text-align: center; 
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 15px 0;
+        }
+        h1 { 
+            color: #0066cc; 
+        }
+        p { 
+            font-size: 18px; 
+        }
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #0066cc;
+            color: white;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+        a.button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        a.button:hover {
+            background-color: #1ebe5d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Менің алғашқы веб-сайтым</h1>
+    </header>
+
+    <section>
+        <p>Бұл менің жеке бетім. Мұнда мен өзім туралы ақпарат бөлісемін.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Байланыс</h2>
+        <p>Егер менімен хабарласқың келсе, келесі нөмірге жаз:</p>
+        <p><strong>📞 87087530470</strong></p>
+        <p>Немесе WhatsApp группага қосыл:</p>
+        <p>
+            <a class="button" href="https://chat.whatsapp.com/Hj127QSbltmCzrSfXKDmjU?mode=ems_copy_t" target="_blank">
+             группага косыл   
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 Менің алғашқы сайтым</p>
+    </footer>
+</body>
+</html>
